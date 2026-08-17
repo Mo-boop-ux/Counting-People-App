@@ -1,3 +1,11 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: "Young serif" , sans-serif;
     text-align: center;
@@ -5,15 +13,17 @@ body {
     justify-content: center;
     align-items: center;
     background: #E4D0B2;
+    min-height: 100vh;
 }
 
 .hero {
     background: rgba(0, 0, 0, 0.1);
-    max-width: 700px;
+    max-width: 1200px;
     border-radius: 40px ;
     padding: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 30px;
 }
 
